@@ -17,7 +17,6 @@ Aplikasi ini dilengkapi dengan validasi input serta fitur Mode Gelap dan Mode Te
 - Input nama pengguna
 - Tombol **Sapa**
 - Menampilkan teks: **Hello (nama)!**
-- Validasi nama (tidak boleh kosong dan minimal 3 karakter)
 - Mode Gelap / Terang
 
 ---
