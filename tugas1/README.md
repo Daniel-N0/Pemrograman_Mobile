@@ -24,16 +24,18 @@ Aplikasi ini dilengkapi dengan validasi input serta fitur Mode Gelap dan Mode Te
 
 ## Cara Menjalankan Aplikasi
 
-### A. Melalui Android Studio
+### A. A. Melalui Android Studio (Menggunakan File ZIP)
 
-1. Download atau clone repository ini
-2. Buka **Android Studio**
-3. Klik **Open**
-4. Pilih folder project
-5. Tunggu proses Gradle Sync selesai
-6. Klik tombol **Run**
-7. Pilih emulator atau device
-8. Aplikasi akan berjalan otomatis
+1. Download file `AplikasiSapaDaniel.zip` dari repository ini
+2. Extract (klik kanan → Extract Here / Extract All)
+3. Buka **Android Studio**
+4. Klik **Open**
+5. Pilih folder hasil extract (bukan file ZIP)
+6. Klik **OK**
+7. Tunggu proses **Gradle Sync** selesai
+8. Klik tombol **Run**
+9. Pilih emulator atau device
+10. Aplikasi akan berjalan otomatis
 
 ---
 
