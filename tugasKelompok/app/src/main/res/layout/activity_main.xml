@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scHistory">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+        
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sejarah Android"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"
+            android:textColor="#1E3A8A"/>
+
+        <TextView
+            android:id="@+id/tvHistory1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2003"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvHistory1_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android, Inc. didirikan oleh Andy Rubin, Rich Miner, Nick Sears, dan Chris White dengan fokus awal pada platform perangkat mobile yang inovatif."
+            android:textSize="12sp" />
+
+        <View
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginVertical="8dp"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:id="@+id/tvHistory2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2005"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvHistory2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Google mengakuisisi Android, membuka era baru
+pengembangan sistem operasi mobile."
+            android:textSize="12sp" />
+
+        <View
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginVertical="8dp"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:id="@+id/tvHistory3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2007"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvHistory3_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open Handset Alliance dibentuk, Android
+diumumkan sebagai platform terbuka."
+            android:textSize="12sp" />
+
+        <View
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginVertical="8dp"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:id="@+id/tvHistory4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2008"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvHistory4_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Peluncuran Android 1.0 (HTX Dream/T-Mobile G1) dan perangkat komersial
+pertama ke pasar."
+            android:textSize="12sp" />
+
+        <View
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginVertical="8dp"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:id="@+id/tvHistory5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2009"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvHistory5_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rilis Android 1.5 (Cupcake) dan 1.6 (Donut)."
+            android:textSize="12sp" />
+
+        <View
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginVertical="8dp"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:id="@+id/tvHistory6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2010"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvHistory6_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rilis Android 2.0/2.1 (Eclair), 2.2 (Froyo), dan 2.3 (Gingerbread)."
+            android:textSize="12sp" />
+
+        <View
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginVertical="8dp"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:id="@+id/tvHistory7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2011"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/tvHistory7_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rilis Android 3.1 (Honeycomb) khusus tablet dan 4.0 (Ice Cream Sandwich)."
+            android:textSize="12sp"/>
+
+        <View
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginVertical="8dp"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:id="@+id/tvHistory8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2012-2013"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvHistory8_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rilis Android 4.1-4.3 (Jelly Bean)."
+            android:textSize="12sp"/>
+
+        <View
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginVertical="8dp"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:id="@+id/tvHistory9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2014"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvHistory9_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rilis Android 4.4 (KitKat)."
+            android:textSize="12sp"/>
+
+        <View
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginVertical="8dp"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:id="@+id/tvHistory10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2015"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvHistory10_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rilis Android 6.0 (Marshmallow)."
+            android:textSize="12sp"/>
+
+        <View
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginVertical="8dp"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:id="@+id/tvHistory11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2016-2017"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvHistory11_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rilis Android 7.0 (Nougat)."
+            android:textSize="12sp"/>
+
+        <View
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginVertical="8dp"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:id="@+id/tvHistory12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2017-2018"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvHistory12_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rilis Anroid 8.0 (Oreo)."
+            android:textSize="12sp"/>
+
+        <View
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginVertical="8dp"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:id="@+id/tvHistory13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2018"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvHistory13_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rilis Android 9 (Pie)."
+            android:textSize="12sp"/>
+
+        <View
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginVertical="8dp"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:id="@+id/tvHistory14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2019"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvHistory14_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rilis Android 10 (mulai meninggalkan penamaan nama makanan/dessert secara publik)."
+            android:textSize="12sp"/>
+
+        <View
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginVertical="8dp"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:id="@+id/tvHistory16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2020"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvHistory16_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rilis Android 11."
+            android:textSize="12sp"/>
+
+        <View
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginVertical="8dp"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:id="@+id/tvHistory17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2021"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvHistory17_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rilis Android 12."
+            android:textSize="12sp" />
+
+        <View
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginVertical="8dp"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:id="@+id/tvHistory18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2022"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvHistory18_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rilis Android 13."
+            android:textSize="12sp"/>
+
+        <View
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginVertical="8dp"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:id="@+id/tvHistory19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2023"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvHistory19_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rilis Android 14."
+            android:textSize="12sp"/>
+
+        <View
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginVertical="8dp"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:id="@+id/tvHistory20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2024-2025"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvHistory20_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rilis Android 15 dan Android 16 dengan integrasi AI cerdas secara menyeluruh pada sistem."
+            android:textSize="12sp" />
+
+        <View
+            android:layout_height="1dp"
+            android:background="#CCCCCC"
+            android:layout_marginVertical="8dp"
+            android:layout_width="match_parent"/>
+
+        <TextView
+            android:id="@+id/tvHistory21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sekarang"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvHistory21_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ekosistem terbesar dengan fokus keamanan, privasi, efisiensi, dan kecerdasan buatan (AI)"
+            android:textSize="12sp"
+            android:paddingBottom="20dp"/>
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lihat Arsitektur dan Info Device"/>
+
+    </LinearLayout>
+
+</ScrollView>
