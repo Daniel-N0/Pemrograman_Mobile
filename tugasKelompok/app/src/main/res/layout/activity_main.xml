@@ -439,6 +439,26 @@ pertama ke pasar."
             android:text="Ekosistem terbesar dengan fokus keamanan, privasi, efisiensi, dan kecerdasan buatan (AI)"
             android:textSize="12sp"
             android:paddingBottom="20dp"/>
+
+        <!-- Bagian Sumber Referensi -->
+        <TextView
+            android:id="@+id/tvSourceTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sumber Referensi:"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/tvSources"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Wikipedia - Android (operating system)\n2. Android Developers Official Website (developer.android.com)\n3. Open Handset Alliance (openhandsetalliance.com)"
+            android:textSize="11sp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#555555"/>
+
         <Button
             android:id="@+id/btnNext"
             android:layout_width="match_parent"
